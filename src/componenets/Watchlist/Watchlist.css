@@ -1,0 +1,45 @@
+.small-card {
+  border: 2px solid gold !important;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px; 
+  height: 300px; 
+}
+
+.small-card img {
+  height: 85%; 
+  width: 100%; 
+  object-fit: cover;
+}
+
+.card-title.h5{
+  color: gold;
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: center;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(1, 2, 2);
+  color: gold;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; /* Add space between rows */
+}
